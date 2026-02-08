@@ -24,3 +24,11 @@ A privacy-focused AI assistant that answers questions from user-provided data wi
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+## Demo
+
+Here’s how the assistant behaves:
+
+1. User enters text or URL  
+2. System chunks and embeds it  
+3. Retriever finds context  
+4. Local LLM answers the query
